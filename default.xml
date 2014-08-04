@@ -36,10 +36,10 @@
   </project>
   <project path="art" name="AOKP/art" remote="aokp" revision="kitkat" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
-  <project path="bionic" name="AOKP/bionic" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="bionic" name="aokp-bionic" remote="bauner" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
+  <project path="bootable/recovery" name="cm-android_bootable_recovery" remote="bauner" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="cm" revision="cm-11.0" />
   <project path="bootable/recovery-philz" name="PhilZ-cwm6/philz_touch_cwm6" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
@@ -149,7 +149,7 @@
   <project path="device/sony/huashan" name="AOKP/device_sony_huashan" remote="aokp" revision="kitkat" groups="notdefault,device,huashan" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" />
-  <project path="external/android-clat" name="platform/external/android-clat" />
+  <project path="external/android-clat" name="cm-android_external_android-clat" remote="bauner" revision="cm-11.0"/> 
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cm" revision="cm-11.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -160,7 +160,7 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="cm-android_external_bluetooth_bluedroid" remote="bauner" revision="cm-11.0" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/busybox" name="AOKP/external_busybox" remote="aokp" revision="kitkat" />
@@ -195,7 +195,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="AOKP/external_clang" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="external/clang" name="aokp-external_clang" remote="bauner" revision="kitkat" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -454,7 +454,7 @@
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
   <project path="kernel/sony/msm8974" name="CyanogenMod/android_kernel_sony_msm8974" remote="cm" revision="cm-11.0" groups="notdefault,kernel,honami,togari,amami" />
   <project path="kernel/sony/msm8974ab" name="AOKP/kernel_sony_msm8974ab" remote="aokp" revision="kitkat" groups="notdefault,kernel,sirius" />
-  <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
+  <project path="libcore" name="aokp-libcore" remote="bauner" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -590,7 +590,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/qcom" name="AOKP/system_qcom" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="system/vold" name="aokp-system_vold" remote="bauner" revision="kitkat" groups="pdk" />
 <!--
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
