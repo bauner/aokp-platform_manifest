@@ -502,7 +502,7 @@
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="aokp-packages_apps_Torch" remote="bauner" revision="kitkat" />
+  <project path="packages/apps/Torch" name="AOKP/packages_apps_Torch" remote="aokp" revision="kitkat" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" groups="notdefault,legacypackages" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" groups="notdefault,legacypackages"/>
