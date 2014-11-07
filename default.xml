@@ -113,7 +113,6 @@
   <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte" />
   <project path="device/samsung/msm8974-common" name="AOKP/device_samsung_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2lte,jf,jflte,hercules,hlte" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,apexqtmo,d2,d2lte,jf,jflte" />
   <project path="device/samsung/msm8974-common" name="AOKP/device_samsung_msm8974-common" remote="aokp" revision="kitkat" groups="notdefault,device,hlte,klte" />
   <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="kitkat" groups="notdefault,device,apexqtmo,d2,d2lte,jf,jflte,hercules,hlte,klte" />
   <project path="device/samsung/serranoltexx" name="AOKP/device_samsung_serranoltexx" remote="aokp" revision="kitkat" groups="notdefault,device,serranoltexx" />
